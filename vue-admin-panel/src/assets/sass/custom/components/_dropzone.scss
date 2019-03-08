@@ -1,0 +1,113 @@
+.uploaded-image {
+  position: relative;
+}
+// uploader
+.upload-section {
+  margin-bottom: 30px;
+}
+
+.upload-field {
+  margin-bottom: 20px;
+}
+
+.image-upload-caption {
+  position: relative;
+}
+
+.img-container {
+  max-width: 150px;
+  margin: auto;
+}
+
+.img-options-content {
+  text-align: center;
+  padding-top: 15px;
+}
+
+.delete-image {
+  position: absolute;
+  right: 0;
+  top: 0;
+  font-size: 16px;
+  padding: 10px;
+  background: $body-color-dark;
+  i {
+    color: #fff;
+  }
+  &:hover {
+    i {
+      color: $body-color-dark;
+    }
+  }
+}
+
+.dropbox {
+  i {
+    display: block;
+    font-size: 30px;
+    color: $body-color-dark;
+  }
+  border: 1px solid $body-color-light;
+  background: lightcyan;
+  color: dimgray;
+  padding: 10px 10px;
+  position: relative;
+  cursor: pointer;
+}
+
+.input-file {
+  opacity: 0; /* invisible but it's there! */
+  bottom: 0;
+  left: 0;
+  top: 0;
+  width: 100%;
+  position: absolute;
+  cursor: pointer;
+}
+
+.upload-saving {
+  bottom: 0;
+  left: 0;
+  top: 0;
+  width: 100%;
+  position: absolute;
+  background: #2c343f;
+  strong {
+    color: #fff;
+  }
+  i {
+    margin-bottom: 20px;
+    color: #fff;
+  }
+}
+
+.dropbox:hover {
+  background: lightblue; /* when mouse over to the drop zone, change color */
+}
+
+.dropbox p {
+  font-size: 1em;
+  text-align: center;
+  margin-bottom: 0 !important;
+  padding: 30px 5px 40px;
+}
+
+.dropbox-gallery-button {
+  transition: .3s;
+  position: relative;
+  background: $body-color-dark;
+  border: none;
+
+  i {
+    color: #fff;
+    padding: 3px;
+  }
+
+  &:hover {
+    background: #fff;
+
+    i {
+      color: $body-color-dark;
+    }
+  }
+}

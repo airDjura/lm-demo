@@ -1,0 +1,68 @@
+@import "./components/multiselect";
+@import "./components/dropzone";
+@import "./components/table";
+@import "./components/block";
+
+.simplebar-wrapper {
+  width: 100%;
+}
+
+#main-container {
+  position: relative;
+}
+#page-loader, .modal {
+  top: 60px;
+}
+#sidebar {
+  z-index: 999999;
+}
+
+#side-overlay {
+  z-index: 999998;
+}
+
+#page-header {
+  z-index: 999995 !important;
+}
+
+@media (min-width: 992px) {
+  #page-loader, .modal {
+    left: 230px;
+  }
+  .sidebar-mini {
+    #page-loader, .modal {
+      left: 60px;
+    }
+  }
+}
+
+.notify {
+  z-index: 999999 !important;
+}
+
+fieldset + button {
+  margin-bottom: 15px;
+}
+// active links
+
+#sidebar {
+  .nav-main-link.router-link-active {
+    color: #e5e5e5 !important;
+
+    & > .nav-main-link-icon {
+      color: #e5e5e5 !important;
+    }
+
+    &.router-link-exact-active {
+      color: #fff !important;
+
+      & > .nav-main-link-icon {
+        color: #fff !important;
+      }
+    }
+  }
+}
+
+.breadcrumb-item:last-child {
+  color: #d26a5c;
+}

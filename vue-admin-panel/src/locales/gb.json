@@ -1,0 +1,200 @@
+{
+  "action": {
+    "name": "Action | Actions",
+    "addNew": "Add new",
+    "createNew": "Create new"
+  },
+  "away": "Away",
+  "club": {
+    "name": "Club | Clubs",
+    "create": "Create club",
+    "edit": "Edit club",
+    "created": "Club created",
+    "updated": "Club updated",
+    "deleted": "Club deleted"
+  },
+  "delete": "Delete",
+  "dropzone": {
+    "dropFiles": "Drop files or click here to upload",
+    "uploading": "Uploading...",
+    "deleteing": "Deleteing...",
+    "tryAgain": "Try again"
+  },
+  "formly": {
+    "fields": {
+      "name": "Name",
+      "club": "Club",
+      "group": "Group",
+      "suffix": "Suffix",
+      "outOfCompetition": "Out of competition?",
+      "players": "Players",
+      "currentSeasonOnWebsite": "Current season in website",
+      "league": "League",
+      "firstName": "First name",
+      "middleName": "Middle name",
+      "numberOfCycles": "Number of cycles",
+      "birthDate": "Date of birth",
+      "lastName": "Last name",
+      "email": "Email",
+      "phone": "Phone",
+      "website": "Website",
+      "fb": "Facebook URL",
+      "tw": "Twitter URL",
+      "insta": "Instagram URL"
+    }
+  },
+  "game": {
+    "name": "Game | Games",
+    "create": "Create game",
+    "edit": "Edit game",
+    "created": "Game created",
+    "updated": "Game updated",
+    "deleted": "Game deleted"
+  },
+  "group": {
+    "name": "Group | Groups",
+    "add": "Add new group",
+    "added": "Group added",
+    "deleted": "Group deleted"
+  },
+  "home": "Home",
+  "information": "Information | Informations",
+  "league": {
+    "name": "League | Leagues",
+    "create": "Create league",
+    "edit": "Edit league",
+    "created": "League created",
+    "updated": "League updated",
+    "deleted": "League deleted"
+  },
+  "login": {
+    "welcome": "Welcome, please login",
+    "signIn": "Sign in"
+  },
+  "logo": "Logo",
+  "media": {
+    "uploaded": "Media uploaded",
+    "deleted": "Media deleted"
+  },
+  "navbar": {
+    "dashboard": "Dashboard",
+    "main": "Main",
+    "current_season": "Current season"
+  },
+  "player": {
+    "name": "Player | Players",
+    "create": "Create player",
+    "edit": "Edit player",
+    "created": "Player created",
+    "updated": "Player updated",
+    "deleted": "Player deleted"
+  },
+  "profile": "Profile | Profiles",
+  "round": "Round | Rounds",
+  "save": "Save",
+  "schedule": {
+    "name": "Schedule | Schedules",
+    "create": "Create schedule",
+    "edit": "Edit schedule",
+    "team": {
+      "add": "Add new team"
+    },
+    "games": {
+      "generate": "Generate games",
+      "regenerate": "Regenerate games",
+      "generated": "Schedule games generated",
+      "deleted": "Schedule games deleted"
+    },
+    "created": "Schedule created",
+    "updated": "Schedule updated",
+    "deleted": "Schedule deleted"
+  },
+  "search": "Search",
+  "season": {
+    "name": "Season | Seasons",
+    "create": "Create season",
+    "edit": "Edit season",
+    "created": "Season created",
+    "updated": "Season updated",
+    "deleted": "Season deleted"
+  },
+  "venue": {
+    "name": "Venue | Venues",
+    "create": "Create venue",
+    "edit": "Edit venue",
+    "created": "Venue created",
+    "updated": "Venue updated",
+    "deleted": "Venue deleted"
+  },
+  "select": {
+    "option": "Select option | Select options"
+  },
+  "swal": {
+    "delete": {
+      "title": "Are you sure?",
+      "text": "You can't revert your action",
+      "yes": "Yes, Delete it!",
+      "no": "No, Keep it!",
+      "success": "Successfully deleted!"
+    }
+  },
+  "table": {
+    "column": {
+      "actions": "Actions",
+      "name": "Name",
+      "dateOfBirth": "Date of birth",
+      "club": "Club"
+    }
+  },
+  "team": {
+    "name": "Team | Teams",
+    "create": "Create team",
+    "edit": "Edit team",
+    "group": {
+      "changed": "Team changed group"
+    },
+    "added": "Team added",
+    "created": "Team created",
+    "updated": "Team updated",
+    "deleted": "Team deleted"
+  },
+  "language": {
+    "name": "Language | Languages",
+    "rs": "Serbian",
+    "gb": "English"
+  },
+  "validation": {
+    "name": {
+      "required": "The name field is required",
+      "exists": "That name already exists"
+    },
+    "firstName": {
+      "required": "The name field is required",
+      "exists": "That name already exists"
+    },
+    "lastName": {
+      "required": "The last name field is required"
+    },
+    "birthDate": {
+      "required": "The date of birth field is required"
+    },
+    "league": {
+      "required": "You must choose the league"
+    },
+    "players": {
+      "min": {
+        "5" : "You must select a minimum of 5 players"
+      }
+    }
+  },
+  "badrequest": {
+    "schedule": {
+      "generate": {
+        "group": {
+          "teams": "Groups should have at least 2 teams"
+        },
+        "teams": "Should have at least 2 teams"
+      }
+    }
+  }
+}

@@ -1,0 +1,66 @@
+{
+    "openapi": "3.0.0",
+    "info": {
+        "title": "nexTome",
+        "description": "Api description...",
+        "termsOfService": "",
+        "contact": {
+            "email": "airdjura@gmail.com"
+        },
+        "license": {
+            "name": "Private License",
+            "url": "URL to the license"
+        },
+        "version": "1.0.0"
+    },
+    "paths": {
+        "/api": {}
+    },
+    "components": {
+        "schemas": {
+            "User": {
+                "required": [
+                    "firstName",
+                    "email"
+                ],
+                "properties": {
+                    "firstName": {
+                        "type": "string"
+                    },
+                    "lastName": {
+                        "type": "string"
+                    },
+                    "isVerified": {
+                        "type": "boolean"
+                    },
+                    "email": {
+                        "type": "string"
+                    }
+                },
+                "type": "object"
+            }
+        },
+        "requestBodies": {
+            "User": {
+                "description": "User object",
+                "content": {
+                    "application/json": {
+                        "schema": {
+                            "properties": {
+                                "data": {
+                                    "type": "object",
+                                    "$ref": "#/components/schemas/User"
+                                }
+                            },
+                            "type": "object"
+                        }
+                    }
+                }
+            }
+        }
+    },
+    "externalDocs": {
+        "description": "Find out more about my website",
+        "url": "http://nex-to.me"
+    }
+}

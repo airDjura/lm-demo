@@ -1,0 +1,200 @@
+{
+  "action": {
+    "name": "Akcija | Akcije",
+    "addNew": "Dodaj",
+    "createNew": "Napravi"
+  },
+  "away": "Gost",
+  "club": {
+    "name": "Klub | Klubovi",
+    "create": "Napravi klub",
+    "edit": "Izmeni klub",
+    "created": "Klub je napravljen",
+    "updated": "Klub je izmenjen",
+    "deleted": "Klub je izbrisan"
+  },
+  "delete": "Izbriši",
+  "dropzone": {
+    "dropFiles": "Prevuci datoteku ovde ili klikni da je dodaš",
+    "uploading": "Otpremanje...",
+    "deleteing": "Brisanje...",
+    "tryAgain": "Pokušaj ponovo"
+  },
+  "formly": {
+    "fields": {
+      "name": "Ime",
+      "club": "Klub",
+      "group": "Grupa",
+      "suffix": "Sufiks",
+      "outOfCompetition": "Van konkurencije?",
+      "players": "Igrači",
+      "currentSeasonOnWebsite": "Trenutna sezona na Vebsajtu",
+      "league": "Liga",
+      "firstName": "Ime",
+      "middleName": "Srednje ime",
+      "lastName": "Prezime",
+      "numberOfCycles": "Broj krugova",
+      "birthDate": "Datum rođenja",
+      "email": "Email",
+      "phone": "Telefon",
+      "website": "Vebsajt",
+      "fb": "Facebook URL",
+      "tw": "Twitter URL",
+      "insta": "Instagram URL"
+    }
+  },
+  "game": {
+    "name": "Utakmica | Utakmice",
+    "create": "Napravi utakmicu",
+    "edit": "Izmeni utakmicu",
+    "created": "Utakmica je napravljena",
+    "updated": "Utakmica je izmenjena",
+    "deleted": "Utakmica je izbrisana"
+  },
+  "group": {
+    "name": "Grupa | Grupe",
+    "add": "Dodaj grupu",
+    "added": "Grupa je dodata",
+    "deleted": "Grupa je izbrisana"
+  },
+  "home": "Domaćin",
+  "information": "Informacija | Informacije",
+  "league": {
+    "name": "Liga | Lige",
+    "create": "Napravi ligu",
+    "edit": "Izmeni ligu",
+    "created": "Liga je napravljena",
+    "updated": "Liga je izmenjena",
+    "deleted": "Liga je izbrisana"
+  },
+  "login": {
+    "welcome": "Dobro došli, molimo vas prijavite se",
+    "signIn": "Prijava"
+  },
+  "logo": "Logo",
+  "media": {
+    "uploaded": "Datoteka otpremljena",
+    "deleted": "Datoteka izbrisana"
+  },
+  "navbar": {
+    "dashboard": "Početna",
+    "main": "Glavno",
+    "current_season": "Trenutna sezona"
+  },
+  "player": {
+    "name": "Igrač | Igrači",
+    "create": "Napravi igrača",
+    "edit": "Izmeni igrača",
+    "created": "Igrač je napravljen",
+    "updated": "Igrač je izmenjen",
+    "deleted": "Igrač je izbrisan"
+  },
+  "profile": "Profil | Profili",
+  "round": "Kolo | Kola",
+  "save": "Snimi",
+  "schedule": {
+    "name": "Raspored | Rasporedi",
+    "create": "Napravi raspored",
+    "edit": "Izmeni raspored",
+    "team": {
+      "add": "Dodaj Tim"
+    },
+    "games": {
+      "generate": "Generiši utakmice",
+      "regenerate": "Regeneriši utakmice",
+      "generated": "Raspored utakmica je generisan",
+      "deleted": "Utakmice su izbrisane"
+    },
+    "created": "Raspored je napravljen",
+    "updated": "Raspored je izmenjen",
+    "deleted": "Raspored je izbrisan"
+  },
+  "search": "Traži",
+  "season": {
+    "name": "Sezona | Sezone",
+    "create": "Napravi sezonu",
+    "edit": "Izmeni sezonu",
+    "created": "Sezona je napravljena",
+    "updated": "Sezona je izmenjena",
+    "deleted": "Sezona je izbrisana"
+  },
+  "venue": {
+    "name": "Teren | Tereni",
+    "create": "Napravi teren",
+    "edit": "Izmeni teren",
+    "created": "Teren je napravljen",
+    "updated": "Teren je izmenjen",
+    "deleted": "Teren je izbrisan"
+  },
+  "select": {
+    "option": "Izaberi opciju | Izaberi opcije"
+  },
+  "swal": {
+    "delete": {
+      "title": "Da li ste sigurni?",
+      "text": "Nećete moći da povratite izbrisane podatke",
+      "yes": "Da, Izbriši!",
+      "no": "Ne, Zadrži!",
+      "success": "Uspešno izbrisan!"
+    }
+  },
+  "table": {
+    "column": {
+      "actions": "Akcije",
+      "name": "Ime",
+      "dateOfBirth": "Datum rođenja",
+      "club": "Klub"
+    }
+  },
+  "team": {
+    "name": "Tim | Timovi",
+    "create": "Napravi tim",
+    "edit": "Izmeni tim",
+    "group": {
+      "changed": "Tim je promenio grupu"
+    },
+    "added": "Tim je dodat",
+    "created": "Tim je napravljen",
+    "updated": "Tim je izmenjen",
+    "deleted": "Tim je izbrisan"
+  },
+  "language": {
+    "name": "Jezik | Jezici",
+    "rs": "Srpski",
+    "gb": "Engleski"
+  },
+  "validation": {
+    "name": {
+      "required": "Ime je obavezno polje",
+      "exists": "Ovo ime već postoji"
+    },
+    "firstName": {
+      "required": "Ime je obavezno polje",
+      "exists": "Ovo ime već postoji"
+    },
+    "lastName": {
+      "required": "Prezime je obavezno polje"
+    },
+    "birthDate": {
+      "required": "Datum rođenja je obavezno polje"
+    },
+    "league": {
+      "required": "Morate izabrati ligu"
+    },
+    "players": {
+      "min": {
+        "5" : "Morate izabrati minimum 5 igrača"
+      }
+    }
+  },
+  "badrequest": {
+    "schedule": {
+      "generate": {
+        "group": {
+          "teams": "Grupa mora imati bar 2 tima"
+        },
+        "teams": "Liga mora imati bar 2 tima"
+      }
+    }
+  }
+}
